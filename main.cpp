@@ -18,7 +18,7 @@ int main() {
                      {40, 80, 100,20}};
     cout << "введите искомый элемент: ";
     cin >> inp;
-    while((j >= 0) and (i < m)) {
+    while((i < m) and (j >= 0)) {
         steps++;
         if (arr[i][j] == inp) {
             res_x = i;
