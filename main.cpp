@@ -6,7 +6,7 @@ using namespace std;
 
 /*
  *  №1
- *
+ *  найти исходный элемент в отсортированной матрице N x M
  */
 
 int main() {
@@ -18,7 +18,7 @@ int main() {
                      {40, 80, 100,20}};
     cout << "введите искомый элемент: ";
     cin >> inp;
-    while((i < m) and (j >= 0)) {
+    while((i < m) && (j >= 0)) {
         steps++;
         if (arr[i][j] == inp) {
             res_x = i;
